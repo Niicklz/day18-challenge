@@ -1,0 +1,57 @@
+#app {
+  background-image: url(/src/assets/image1.avif);
+  
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.slider {
+  width: 50%;
+  height: 50vh;
+  background-color: transparent;
+  background-position: center center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  box-shadow: -2px -2px 5px 100vh rgba(0, 0, 0, 0.75);
+position: relative;
+  
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  border: 2px solid orange;
+  color: #fff;
+  
+}
+.right {
+  position: absolute;
+  right: -59px;
+  top: 45%;
+
+}
+.left {
+  position: absolute;
+  left: -59px;
+  top: 45%;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 24
+}
