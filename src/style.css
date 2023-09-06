@@ -33,6 +33,8 @@ button {
   background-color: transparent;
   border: 2px solid orange;
   color: #fff;
+  max-width: 59px;
+  max-height: 63px;
   
 }
 .right {
