@@ -8,10 +8,10 @@ buttons.forEach((btn) => {
 
     if (btn.dataset.buttons === "next") {
       counter++;
-      app.style.backgroundImage = `url(/src/assets/image${counter}.avif)`;
+      app.style.backgroundImage = `url(/public/image${counter}.avif)`;
     } else {
       counter--;
-      app.style.backgroundImage = `url(/src/assets/image${counter}.avif)`;
+      app.style.backgroundImage = `url(/public/image${counter}.avif)`;
     }
   });
 });

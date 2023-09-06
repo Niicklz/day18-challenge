@@ -1,5 +1,5 @@
 #app {
-  background-image: url(/src/assets/image1.avif);
+  background-image: url(/public/image1.avif);
   
   background-position: center center;
   background-size: cover;
