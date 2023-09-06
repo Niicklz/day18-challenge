@@ -8,10 +8,10 @@ buttons.forEach((btn) => {
 
     if (btn.dataset.buttons === "next") {
       counter++;
-      app.style.backgroundImage = `url(/public/image${counter}.avif)`;
+      app.style.backgroundImage = `url(https://res.cloudinary.com/dooazvgi7/image/upload/v1694022383/backgroundslider/image${counter}.avif)`;
     } else {
       counter--;
-      app.style.backgroundImage = `url(/public/image${counter}.avif)`;
+       app.style.backgroundImage = `url(https://res.cloudinary.com/dooazvgi7/image/upload/v1694022383/backgroundslider/image${counter}.avif)`;
     }
   });
 });
